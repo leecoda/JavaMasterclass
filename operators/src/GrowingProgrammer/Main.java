@@ -72,9 +72,14 @@ public class Main {
         }
 
         boolean thirdCar = true;
-        if (!thirdCar) {
+        if (thirdCar) {
             System.out.println("This is not supposed to happen");
         }
+        boolean wasCar = thirdCar ? true: false;
+        if (wasCar) {
+            System.out.println("wasCar is true.");
+        }
+
 
 
 
