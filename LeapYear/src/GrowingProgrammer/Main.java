@@ -17,9 +17,8 @@ public class Main {
     public static boolean isLeapYear(int year) {
         boolean leapYearOrNot = false;
         if (year < 1 || year > 9999) {
-            leapYearOrNot = false;
-            //上面这个代码是亮的是因为有冗余，自己之前已经定义这个boolean值是false了，所以这个地方即使是不重新赋值，都是false
-            //但我还是重新赋值了，因为我要让逻辑完整，提高可读性
+            //leapYearOrNot = false;
+            //上面这个代码如果不comment out的话是亮的是因为有冗余，自己之前已经定义这个boolean值是false了，所以这个地方即使是不重新赋值，都是false
             //如果这个时候删除这个语句，依然是可以运行的，结果是一样的，就是if会高亮，提醒这个if后面没有body
         } else if (year % 400 == 0) {
             leapYearOrNot = true;
