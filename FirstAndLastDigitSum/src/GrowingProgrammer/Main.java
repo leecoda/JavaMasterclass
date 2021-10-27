@@ -23,7 +23,12 @@ public class Main {
             first = number;
             number = digit;
         }
+//        for(int digit = 0; number > 0; number = digit) {
+//            digit = number / 10;
+//            first = number;
+//        }
+//上面for的解决办法也是可以的
         return first + last;
     }
 }
-//上面的解决办法是可以的，但其实有更好的
+
