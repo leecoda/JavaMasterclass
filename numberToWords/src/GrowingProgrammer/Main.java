@@ -23,6 +23,7 @@ public class Main {
         if(number < 0) {
             return -1;
         }
+        //这里似乎是没有考虑number = 0这种情况
         int count = 1;
         while(number / 10 >= 1) {
              count ++;
