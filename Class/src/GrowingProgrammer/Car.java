@@ -12,6 +12,7 @@ public class Car {
 
     //这个不是main class,而是Car class，下面也没有main method
     public void setModel(String model) {
+        //这个里面为什么就没有static呢？
         String validModel= model.toLowerCase();
         //上面这行代码的含义应该是把model全部都转换成小写
         if(validModel.equals("carrera") || validModel.equals("commodore")) {
